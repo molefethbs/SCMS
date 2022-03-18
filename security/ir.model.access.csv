@@ -1,0 +1,6 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_scms_suppliers,scms.suppliers,model_scms_suppliers,base.group_user,1,1,1,1
+access_scms_dev_category,scms.dev_category,model_scms_dev_category,base.group_user,1,1,1,1
+access_scms_device,scms.device,model_scms_device,base.group_user,1,1,1,1
+access_scms_staff,scms.staff,model_scms_staff,base.group_user,1,1,1,1
+access_scms_roles,scms.roles,model_scms_roles,base.group_user,1,1,1,1
