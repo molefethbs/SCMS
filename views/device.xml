@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <!--  to view the data in the tree view  -->
+    <record id="device_tree_view" model="ir.ui.view">
+        <field name = "name">Device Form Tree View</field>
+          <field name = "model">scms.device</field>
+          <field name = "arch" type="xml">
+            <tree string="Devices">
+                      <field name ="name"/>
+                         <field name ="model"/>
+                          <field name ="device_code"/>
+                         <field name ="unit"/>
+                          <field name ="category"/>
+                         <field name ="supplier"/>
+                          <field name ="price"/>
+                          <field name ="status"/>
+           </tree>
+       </field>
+    </record>
+    <!--    viewing in form view-->
+    <record id="device_form_view" model="ir.ui.view">
+        <field name = "name">Device Form View</field>
+          <field name = "model">scms.device</field>
+          <field name = "arch" type="xml">
+            <form string="Devices">
+                <div class ="oe_title">
+                    <h1>
+                       Device Information
+                    </h1>
+                </div>
+                <group>
+                    <group>
+                      <field name ="name"/>
+                         <field name ="model"/>
+                          <field name ="device_code"/>
+                         <field name ="unit"/>
+                    </group>
+                    <group>
+                          <field name ="category"/>
+                         <field name ="supplier"/>
+                          <field name ="price"/>
+                          <field name ="status"/>
+                    </group>
+                </group>
+            </form>
+       </field>
+    </record>
+    <!--entering data-->
+    <record id="action_device" model="ir.actions.act_window">
+        <field name="name">Device</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">scms.device</field>
+        <field name="view_mode">tree,form</field>
+        <field name="context">{}</field>
+        <field name="domain">[]</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Create Company
+            </p>
+        </field>
+    </record>
+</odoo>

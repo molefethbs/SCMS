@@ -1,0 +1,35 @@
+<odoo>
+    <menuitem id="scms_menu"
+          name="SCMS"
+          sequence="1"/>
+
+    <menuitem id="supplier_menu"
+              name="Suppliers"
+              action="action_supplier"
+              parent="scms_menu"
+              sequence="2"/>
+
+    <menuitem id="dev_category_menu"
+              name="Category"
+              action="action_dev_category"
+              parent="scms_menu"
+              sequence="4"/>
+
+    <menuitem id="device_menu"
+              name="Device"
+              action="action_device"
+              parent="scms_menu"
+              sequence="3"/>
+
+    <menuitem id="staff_menu"
+              name="Staff"
+              action="action_staff"
+              parent="scms_menu"
+              sequence="5"/>
+
+    <menuitem id="roles_menu"
+              name="Roles"
+              action="action_role"
+              parent="scms_menu"
+              sequence="6"/>
+</odoo>
