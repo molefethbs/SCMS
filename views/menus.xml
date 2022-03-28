@@ -32,4 +32,10 @@
               action="action_role"
               parent="scms_menu"
               sequence="6"/>
+
+    <menuitem id="user_requisition_menu"
+              name="Requisition"
+              action="action_user_requisition"
+              parent="scms_menu"
+              sequence="7"/>
 </odoo>

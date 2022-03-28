@@ -4,3 +4,4 @@ access_scms_dev_category,scms.dev_category,model_scms_dev_category,base.group_us
 access_scms_device,scms.device,model_scms_device,base.group_user,1,1,1,1
 access_scms_staff,scms.staff,model_scms_staff,base.group_user,1,1,1,1
 access_scms_roles,scms.roles,model_scms_roles,base.group_user,1,1,1,1
+access_scms_user_requisition,scms.user_requisition,model_scms_user_requisition,base.group_user,1,1,1,1

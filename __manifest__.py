@@ -21,7 +21,8 @@
         'views/device.xml',
         'views/menus.xml',
         'views/staff_view.xml',
-        'views/roles.xml'
+        'views/roles.xml',
+        'views/user_requisition.xml'
     ],
 
     "active": False,
